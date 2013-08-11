@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /var/www/BlogTest/app/config/routing_dev.yml
+    resource: /var/www/symfony/BlogTest/app/config/routing_dev.yml
