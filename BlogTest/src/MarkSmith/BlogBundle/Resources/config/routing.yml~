@@ -1,0 +1,3 @@
+mark_smith_blog_homepage:
+    pattern:  /blog/{name}
+    defaults: { _controller: MarkSmithBlogBundle:Default:index }

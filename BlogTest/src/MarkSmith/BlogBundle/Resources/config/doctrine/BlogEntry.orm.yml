@@ -1,0 +1,17 @@
+MarkSmith\BlogBundle\Entity\BlogEntry:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        date:
+            type: datetime
+        title:
+            type: string
+            length: '255'
+        content:
+            type: text
+    lifecycleCallbacks: {  }

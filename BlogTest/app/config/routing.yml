@@ -1,0 +1,4 @@
+mark_smith_blog:
+    resource: "@MarkSmithBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+

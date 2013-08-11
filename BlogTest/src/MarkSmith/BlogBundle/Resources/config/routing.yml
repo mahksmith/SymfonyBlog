@@ -1,0 +1,11 @@
+mark_smith_blog_homepage:
+    pattern:  /blog/
+    defaults: { _controller: MarkSmithBlogBundle:Default:index }
+    
+blog_create:
+    pattern: /blog/create/
+    defaults: { _controller: MarkSmithBlogBundle:Default:create }
+    
+blog_view:
+    pattern: /blog/{id}
+    defaults: { _controller: MarkSmithBlogBundle:Default:view }
